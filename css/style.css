@@ -4,6 +4,12 @@ body{
 }h1{
     font-size: 40px;
 }
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+}
 .komola{
     color:orange;
 }
@@ -54,6 +60,34 @@ section{
 .dream-big .half-width p{
     margin-bottom: 50px;
 }
+.experinces{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
 .ex-blog{
     display: flex;
+}
+.exp-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left:10px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+.pro-developer{
+    border-left: 6px solid;
+    border-image: linear-gradient(orange,rgba(145, 143, 71, 0.322));
+    border-image-slice: 1;
+}
+.baby-developer{
+    border-left: 6px solid;
+    border-image: linear-gradient(rgb(93, 47, 218),rgba(144, 181, 224, 0.322));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
