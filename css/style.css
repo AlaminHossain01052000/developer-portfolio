@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }h1{
     font-size: 40px;
 }
@@ -7,20 +8,52 @@ body{
     color:orange;
 }
 section{
+    
+    margin-bottom: 150px;
+}
+.flexible-container{
     display: flex;
 }
-
+.top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
 .half-width{
     padding-left:5%;
+    width: 50%;
 }
 .half-width img{
-    width:100%;
+    width:85%;
 }
 .hire{
     text-decoration: none;
     font-weight: 600;
     color:#fff;
     background-image: linear-gradient(#ffa60088,rgb(160, 148, 96));
-    padding:10px 20px;
+    padding:10px 30px;
     border-radius: 5px;
+    margin-top: 10px;
+}
+.dream-big{
+    display: flex;
+    
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.resume{
+    padding:15px 40px;
+    background-image: linear-gradient(rgb(155, 28, 98) ,rgb(204, 84, 158));
+    color:white;
+    font-weight:600;
+    text-decoration: none;
+    margin-top: 30px;
+   
+}
+.dream-big .half-width p{
+    margin-bottom: 50px;
+}
+.ex-blog{
+    display: flex;
 }
