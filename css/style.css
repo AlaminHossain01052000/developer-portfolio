@@ -1,8 +1,26 @@
 body{
     font-family: 'Poppins', sans-serif;
 }h1{
-    font-size: 30px;
+    font-size: 40px;
 }
 .komola{
     color:orange;
+}
+section{
+    display: flex;
+}
+
+.half-width{
+    padding-left:5%;
+}
+.half-width img{
+    width:100%;
+}
+.hire{
+    text-decoration: none;
+    font-weight: 600;
+    color:#fff;
+    background-image: linear-gradient(#ffa60088,rgb(160, 148, 96));
+    padding:10px 20px;
+    border-radius: 5px;
 }
